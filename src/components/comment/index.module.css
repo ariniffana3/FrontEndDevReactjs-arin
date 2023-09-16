@@ -1,0 +1,23 @@
+.comment_profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.comment_img {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+.comment_name {
+  margin-right: 10px;
+  font-weight: 500;
+}
+.comment_date {
+  color: grey;
+}
+.comment_review {
+  margin-left: 40px;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}

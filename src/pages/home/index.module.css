@@ -1,0 +1,38 @@
+.body {
+  padding: 5%;
+}
+header h1 {
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: -10px;
+}
+header h3 {
+  font-weight: 400;
+  width: 700px;
+}
+.filter_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter_card_left {
+  display: flex;
+  align-items: center;
+}
+.filter_card_left input {
+  height: 20px;
+  margin-left: 20px;
+}
+.filter_card_left select {
+  height: 25px;
+  width: 130px;
+  margin-left: 20px;
+}
+.filter_card button {
+  height: 25px;
+}
+.rest_cont {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,30 @@
+.rest_card {
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  overflow-x: hidden;
+}
+img {
+  height: 200px;
+}
+.name {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 10px 0 5px 0;
+}
+.rating {
+  margin-bottom: 10px;
+}
+.city {
+  margin-bottom: 5px;
+}
+.button {
+  width: 200px;
+  height: 30px;
+  color: white;
+  background-color: rgb(80, 40, 199);
+  border: none;
+}
+.button:hover {
+  cursor: pointer;
+}
