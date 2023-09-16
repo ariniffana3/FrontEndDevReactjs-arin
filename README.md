@@ -50,6 +50,7 @@ Follow these steps to get started with the project:
 ## Deployed Website
 
 You can open the link below to open the end result of this website
+https://restaurantapi-arin.netlify.app
 
 ## License
 

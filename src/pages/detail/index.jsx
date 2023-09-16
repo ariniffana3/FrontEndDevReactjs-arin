@@ -102,21 +102,21 @@ export default function Detail() {
           <p className={styles.main_title_desc}>Description :</p>
           <p className={styles.main_description}>{data.description}</p>
         </div>
-        <div classsName={styles.main_review}>
-          <p>Review :</p>
-          {data?.review ? (
-            data.review.map((item) => {
-              return (
-                <>
-                  <Comment data={item} key={item.review} />
-                </>
-              );
-            })
-          ) : (
-            <></>
-          )}
-        </div>
       </main>
+      <div classsName={styles.main_review}>
+        <p className={styles.main_review_title}>Review :</p>
+        {data?.review ? (
+          data.review.map((item) => {
+            return (
+              <>
+                <Comment data={item} key={item.review} />
+              </>
+            );
+          })
+        ) : (
+          <></>
+        )}
+      </div>
     </div>
   );
 }
